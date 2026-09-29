@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered bold white folder icon on 108x108 adaptive icon canvas -->
+    <!-- Folder shape fits cleanly within the 66dp safe zone (between x=24..84, y=26..82) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 28,34 C 25.79,34 24,35.79 24,38 L 24,70 C 24,72.21 25.79,74 28,74 L 80,74 C 82.21,74 84,72.21 84,70 L 84,46 C 84,43.79 82.21,42 80,42 L 52,42 L 46,34 L 28,34 Z" />
+</vector>

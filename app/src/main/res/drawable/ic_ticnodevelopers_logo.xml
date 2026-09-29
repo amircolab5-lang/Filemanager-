@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="800dp"
+    android:height="250dp"
+    android:viewportWidth="800"
+    android:viewportHeight="250">
+
+    <!-- Logo Group: Hexagon Outline translated to (150, 125) -->
+    <!-- Left Hexagon Outline: M 150 45 L 80 85 L 80 165 L 120 188 -->
+    <path
+        android:pathData="M 150,45 L 80,85 L 80,165 L 120,188"
+        android:strokeColor="#3D7EEB"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Right Hexagon Outline: M 150 45 L 220 85 L 220 165 L 180 188 -->
+    <path
+        android:pathData="M 150,45 L 220,85 L 220,165 L 180,188"
+        android:strokeColor="#3D7EEB"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Angle Bracket Left < : M 130 110 L 105 135 L 130 160 -->
+    <path
+        android:pathData="M 130,110 L 105,135 L 130,160"
+        android:strokeColor="#3D7EEB"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Angle Bracket Right > : M 170 110 L 195 135 L 170 160 -->
+    <path
+        android:pathData="M 170,110 L 195,135 L 170,160"
+        android:strokeColor="#3D7EEB"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Slash / : M 135 165 L 165 105 -->
+    <path
+        android:pathData="M 135,165 L 165,105"
+        android:strokeColor="#3D7EEB"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- T Shape top left wing: M 150 90 L 120 110 L 140 120 Z -->
+    <path
+        android:pathData="M 150,90 L 120,110 L 140,120 Z"
+        android:fillColor="#3D7EEB" />
+
+    <!-- T Shape top right wing: M 150 90 L 180 110 L 160 120 Z -->
+    <path
+        android:pathData="M 150,90 L 180,110 L 160,120 Z"
+        android:fillColor="#3D7EEB" />
+
+</vector>

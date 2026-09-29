@@ -1,0 +1,41 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600;700&amp;display=swap');
+      .brand-title {
+        font-family: 'Josefin Sans', 'JosefinSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        fill: #FFFFFF;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+    </style>
+  </defs>
+
+  <g id="ticnodevelopers_brand_logo">
+    <!-- Top Curly Bracket (90 deg rotated with inward legs and flat cuts) -->
+    <path
+      d="M 72 210 L 72 150 C 72 126 90 112 116 112 L 198 112 C 222 112 238 98 248 76 C 252 68 260 68 264 76 C 274 98 290 112 314 112 L 396 112 C 422 112 440 126 440 150 L 440 210"
+      stroke="#FFFFFF"
+      stroke-width="36"
+      stroke-linecap="butt"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <!-- Middle Brand Name: ticnodevelopers (lowercase in Josefin Sans font) -->
+    <text x="256" y="256" class="brand-title">ticnodevelopers</text>
+
+    <!-- Bottom Curly Bracket (90 deg rotated with inward legs and flat cuts) -->
+    <path
+      d="M 72 302 L 72 362 C 72 386 90 400 116 400 L 198 400 C 222 400 238 414 248 436 C 252 444 260 444 264 436 C 274 414 290 400 314 400 L 396 400 C 422 400 440 386 440 362 L 440 302"
+      stroke="#FFFFFF"
+      stroke-width="36"
+      stroke-linecap="butt"
+      stroke-linejoin="round"
+      fill="none"
+    />
+  </g>
+</svg>

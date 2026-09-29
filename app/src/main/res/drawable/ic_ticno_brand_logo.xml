@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="100dp"
+    android:viewportWidth="640"
+    android:viewportHeight="200">
+
+    <!-- Black Background Container matching user uploaded ticno logo.jpg -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 20,0 L 620,0 A 20,20 0 0 1 640,20 L 640,180 A 20,20 0 0 1 620,200 L 20,200 A 20,20 0 0 1 0,180 L 0,20 A 20,20 0 0 1 20,0 Z" />
+
+    <!-- Pure White Bold Geometric Rounded TICNO Letterforms -->
+    <!-- T -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 32,36 C 32,26 40,20 52,20 L 132,20 C 144,20 152,26 152,36 L 152,56 C 152,62 146,66 140,66 L 106,66 L 106,164 C 106,174 98,180 88,180 L 72,180 C 62,180 54,174 54,164 L 54,66 L 44,66 C 38,66 32,62 32,56 Z" />
+
+    <!-- I -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 180,20 L 214,20 C 224,20 232,28 232,38 L 232,162 C 232,172 224,180 214,180 L 180,180 C 170,180 162,172 162,162 L 162,38 C 162,28 170,20 180,20 Z" />
+
+    <!-- C -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 252,36 C 252,24 262,20 274,20 L 328,20 C 340,20 348,26 348,36 L 348,54 C 348,60 342,66 336,66 L 298,66 L 298,134 L 336,134 C 342,134 348,140 348,146 L 348,164 C 348,174 340,180 328,180 L 274,180 C 262,180 252,174 252,164 Z" />
+
+    <!-- N -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 368,36 C 368,26 376,20 386,20 L 406,20 C 414,20 420,24 425,32 L 458,118 L 458,36 C 458,26 464,20 474,20 L 482,20 C 492,20 498,26 498,36 L 498,164 C 498,174 492,180 482,180 L 460,180 C 452,180 446,176 441,168 L 408,82 L 408,164 C 408,174 402,180 392,180 L 384,180 C 374,180 368,174 368,164 Z" />
+
+    <!-- O with clean inner rectangular aperture -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M 522,36 C 522,24 532,20 546,20 L 606,20 C 620,20 630,24 630,36 L 630,164 C 630,176 620,180 606,180 L 546,180 C 532,180 522,176 522,164 Z M 566,62 L 586,62 L 586,138 L 566,138 Z" />
+
+</vector>

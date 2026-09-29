@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Background rectangle -->
+    <path
+        android:fillColor="#121826"
+        android:pathData="M 0,0 L 320,0 L 320,180 L 0,180 Z" />
+    
+    <!-- Subtle gradient glow shape -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M 40,20 L 280,20 C 291,20 300,29 300,40 L 300,140 C 300,151 291,160 280,160 L 40,160 C 29,160 20,151 20,140 L 20,40 C 20,29 29,20 40,20 Z" />
+
+    <!-- File Manager Icon / Folder (Centered) -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M 120,60 C 116,60 112,64 112,68 L 112,120 C 112,124 116,128 120,128 L 200,128 C 204,128 208,124 208,120 L 208,78 C 208,74 204,70 200,70 L 160,70 L 150,60 L 120,60 Z" />
+
+    <!-- Folder Front Flap Accent -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M 112,82 L 152,82 L 166,92 L 208,92 L 208,120 C 208,124 204,128 200,128 L 120,128 C 116,128 112,124 112,120 Z" />
+</vector>
