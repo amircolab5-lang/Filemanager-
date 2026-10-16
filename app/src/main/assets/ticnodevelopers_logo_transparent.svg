@@ -1,0 +1,131 @@
+<svg id="ticnoLogoSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 480" width="100%" height="100%">
+    <defs>
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&amp;display=swap');
+            .ticno-text-main {
+                font-family: 'Montserrat', 'Orbitron', 'Rajdhani', -apple-system, sans-serif;
+                font-weight: 900;
+                font-size: 38px;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+            }
+            .ticno-text-sub {
+                font-family: 'Montserrat', -apple-system, sans-serif;
+                font-weight: 800;
+                font-size: 14px;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+            }
+        </style>
+
+        <filter id="subtleGlow" x="-30%" y="-30%" width="160%" height="160%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#76c028" flood-opacity="0.22"></feDropShadow>
+        </filter>
+        
+        <filter id="purpleGlow" x="-30%" y="-30%" width="160%" height="160%">
+            <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#8a1ce8" flood-opacity="0.30"></feDropShadow>
+        </filter>
+
+        <filter id="textReadabilityShadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.25"></feDropShadow>
+        </filter>
+
+        <linearGradient id="limeBrightTop" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#83c81e"></stop>
+            <stop offset="40%" stop-color="#b8f236"></stop>
+            <stop offset="100%" stop-color="#e2ff78"></stop>
+        </linearGradient>
+
+        <linearGradient id="limeMidFront" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#8fd322"></stop>
+            <stop offset="60%" stop-color="#67aa12"></stop>
+            <stop offset="100%" stop-color="#4e870a"></stop>
+        </linearGradient>
+
+        <linearGradient id="limeShadowFront" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#5fa10f"></stop>
+            <stop offset="60%" stop-color="#3f7306"></stop>
+            <stop offset="100%" stop-color="#2a5202"></stop>
+        </linearGradient>
+
+        <linearGradient id="limeBottomBevel" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#9ce327"></stop>
+            <stop offset="50%" stop-color="#5f9e0d"></stop>
+            <stop offset="100%" stop-color="#2f5703"></stop>
+        </linearGradient>
+
+        <linearGradient id="limeInnerDark" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2c5404"></stop>
+            <stop offset="100%" stop-color="#152d00"></stop>
+        </linearGradient>
+
+        <linearGradient id="purpleTextGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#8411d6"></stop>
+            <stop offset="50%" stop-color="#a82bf2"></stop>
+            <stop offset="100%" stop-color="#b253f8"></stop>
+        </linearGradient>
+
+        <linearGradient id="purpleTopCap" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#bd81f0"></stop>
+            <stop offset="50%" stop-color="#e3beff"></stop>
+            <stop offset="100%" stop-color="#f5e6ff"></stop>
+        </linearGradient>
+
+        <linearGradient id="purpleLeftShadow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#642b9e"></stop>
+            <stop offset="60%" stop-color="#3d1469"></stop>
+            <stop offset="100%" stop-color="#230642"></stop>
+        </linearGradient>
+
+        <linearGradient id="purpleRightBright" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ce8aff"></stop>
+            <stop offset="50%" stop-color="#9a4ee3"></stop>
+            <stop offset="100%" stop-color="#6422a8"></stop>
+        </linearGradient>
+
+        <linearGradient id="purpleBottomDark" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#3d1469"></stop>
+            <stop offset="100%" stop-color="#18022b"></stop>
+        </linearGradient>
+    </defs>
+
+    <g id="logoMarkGroup" filter="url(#subtleGlow)">
+        <g id="leftBracket">
+            <path d="M 345,70 L 365,88 L 356,80 L 268,162 L 255,162 Z" fill="url(#limeBrightTop)"></path>
+            <path d="M 356,80 L 365,88 L 365,108 L 290,162 L 268,162 Z" fill="url(#limeMidFront)"></path>
+            <path d="M 268,162 L 290,162 L 365,216 L 365,236 L 356,244 Z" fill="url(#limeShadowFront)"></path>
+            <path d="M 255,162 L 268,162 L 356,244 L 365,236 L 345,254 Z" fill="url(#limeBottomBevel)"></path>
+            <path d="M 365,108 L 290,162 L 365,216 Z" fill="url(#limeInnerDark)"></path>
+            <path d="M 345,70 L 255,162 L 345,254" fill="none" stroke="#eefdaa" stroke-width="1.8" stroke-opacity="0.85"></path>
+            <path d="M 268,162 L 356,80" fill="none" stroke="#d2ff6b" stroke-width="1.2" stroke-opacity="0.7"></path>
+        </g>
+
+        <g id="centerPillar" filter="url(#purpleGlow)">
+            <path d="M 400,90 L 416,106 L 400,122 L 384,106 Z" fill="url(#purpleTopCap)"></path>
+            <path d="M 384,106 L 400,122 L 400,298 L 384,282 Z" fill="url(#purpleLeftShadow)"></path>
+            <path d="M 400,122 L 416,106 L 416,282 L 400,298 Z" fill="url(#purpleRightBright)"></path>
+            <path d="M 384,282 L 400,298 L 416,282 L 400,314 Z" fill="url(#purpleBottomDark)"></path>
+            <line x1="400" y1="122" x2="400" y2="298" stroke="#f3d5ff" stroke-width="2" stroke-opacity="0.9"></line>
+            <path d="M 400,90 L 416,106 L 416,282" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.75"></path>
+        </g>
+
+        <g id="rightBracket">
+            <path d="M 455,146 L 435,164 L 444,156 L 532,238 L 545,238 Z" fill="url(#limeBrightTop)"></path>
+            <path d="M 444,156 L 435,164 L 435,184 L 510,238 L 532,238 Z" fill="url(#limeMidFront)"></path>
+            <path d="M 532,238 L 510,238 L 435,292 L 435,312 L 444,320 Z" fill="url(#limeShadowFront)"></path>
+            <path d="M 545,238 L 532,238 L 444,320 L 435,312 L 455,330 Z" fill="url(#limeBottomBevel)"></path>
+            <path d="M 435,184 L 510,238 L 435,292 Z" fill="url(#limeInnerDark)"></path>
+            <path d="M 455,146 L 545,238 L 455,330" fill="none" stroke="#eefdaa" stroke-width="1.8" stroke-opacity="0.85"></path>
+            <path d="M 532,238 L 444,156" fill="none" stroke="#d2ff6b" stroke-width="1.2" stroke-opacity="0.7"></path>
+        </g>
+    </g>
+
+    <g id="logoTextGroup" filter="url(#textReadabilityShadow)">
+        <text id="svgMainText" class="ticno-text-main" x="400" y="380" text-anchor="middle" fill="url(#purpleTextGradient)">
+            TICNO DEVELOPERS
+        </text>
+        <text id="svgSubText" class="ticno-text-sub" x="400" y="420" text-anchor="middle" fill="#8ccf1f">
+            SOFTWARE &amp; DIGITAL SOLUTIONS
+        </text>
+    </g>
+</svg>

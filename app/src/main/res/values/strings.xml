@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">File Manager</string>
+    <string name="google_app_id" translatable="false">1:123456789012:android:0123456789abcdef</string>
+</resources>
