@@ -1,0 +1,6 @@
+{
+  "name": "File Manager",
+  "description": "Native Android file manager with fast category browsing, status saver, hidden files explorer, and deep storage cleaner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

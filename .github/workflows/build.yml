@@ -1,0 +1,42 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Restore Keystores
+      run: |
+        if [ -f release.keystore.base64 ]; then
+          base64 -d release.keystore.base64 > release.keystore
+        elif [ ! -f release.keystore ]; then
+          keytool -genkeypair -v -keystore release.keystore -storepass ticno12345 -alias ticnodevelopers -keypass ticno12345 -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Ticno Developers, OU=Mobile, O=Ticno, L=City, ST=State, C=US"
+        fi
+        if [ -f debug.keystore.base64 ]; then
+          base64 -d debug.keystore.base64 > debug.keystore
+        fi
+
+    - name: Build with Gradle
+      run: gradle assembleRelease --no-daemon
+
+    - name: Upload Release APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: File_Manager_2.4.8_Release
+        path: app/build/outputs/apk/release/app-release.apk
